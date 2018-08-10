@@ -17,7 +17,7 @@ function sumFibs(num) {
   let fibOddArray = []; //Used to populate with the odd values of fibArray
   let a = 1;
   let b = 1;
-  let sum = 0;
+  let sum = 0; 
 
   /*Builds an array of all Fibonacci numbers that are less than or equal to num.
    NOTE: This array has a starting value of [1,1] since those will always be
