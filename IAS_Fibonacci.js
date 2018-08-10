@@ -19,7 +19,9 @@ function sumFibs(num) {
   let b = 1;
   let sum = 0;
 
-  //Builds an array of all Fibonacci numbers that are less than or equal to num. NOTE: This array has a starting value of [1,1] since those will always be the first two values of the Fibonacci sequence.
+  /*Builds an array of all Fibonacci numbers that are less than or equal to num.
+   NOTE: This array has a starting value of [1,1] since those will always be
+   the first two values of the Fibonacci sequence.*/
   while (a + b <= num) {
     sum = a + b;
     fibArray.push(sum);
@@ -34,7 +36,8 @@ function sumFibs(num) {
     }
   });
 
-  //Use the reduce method to set the value of sumOdds equal to all the values in fibOddArray.
+  /*Use the reduce method to set the value of sumOdds
+   equal to all the values in fibOddArray.*/
   let sumOdds = fibOddArray.reduce((sum, x) => {
     return sum += x;
   });
