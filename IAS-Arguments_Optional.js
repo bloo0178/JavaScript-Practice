@@ -1,7 +1,6 @@
 console.clear();
 
 /*
-
 Create a function that sums two arguments together. If only one argument is
 provided, then return a function that expects one argument and returns the sum.
 
@@ -15,7 +14,6 @@ var sumTwoAnd = addTogether(2);
 sumTwoAnd(3) returns 5.
 
 If either argument isn't a valid number, return undefined.
-
 */
 
 function addTogether() {
@@ -35,7 +33,7 @@ function addTogether() {
   /*If the function only has one argument, we return a new function expecting
   one argument that will sum that argument up along with the argument passed
   in the original function. If the argument passed in the returned function
-  is not a number, we return undefined.*/ 
+  is not a number, we return undefined.*/
   else if (arguments.length = 1) {
     let x = arguments[0];
     return function(y) {
@@ -62,6 +60,4 @@ addTogether(2)(3) should return 5.
 addTogether("http://bit.ly/IqT6zt") should return undefined.
 addTogether(2, "3") should return undefined.
 addTogether(2)([3]) should return undefined.
-
-
 */
