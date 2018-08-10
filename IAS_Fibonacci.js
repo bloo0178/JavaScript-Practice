@@ -45,4 +45,4 @@ function sumFibs(num) {
   return sumOdds;
 }
 
-console.log(sumFibs(10));
+console.log(sumFibs(1000));
